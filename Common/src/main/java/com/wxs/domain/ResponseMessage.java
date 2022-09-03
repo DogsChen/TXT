@@ -1,6 +1,17 @@
 package com.wxs.domain;
 
 public class ResponseMessage<T> {
+    @Override
+    public String toString() {
+        return "ResponseMessage{" +
+                "success=" + success +
+                ", code=" + code +
+                ", msg='" + msg + '\'' +
+                ", data=" + data +
+                ", notify=" + notify +
+                '}';
+    }
+
     private Boolean success;
     private Integer code;
     private String msg;
