@@ -1,0 +1,6 @@
+spring:
+    mail:
+        host: smtp.163.com
+        port: 25
+        username: wxs_workyouxiang@163.com
+        password: DXBRMRFJMIIORBAM
